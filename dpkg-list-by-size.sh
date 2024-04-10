@@ -8,6 +8,8 @@
 #  - `./dpkg-list-by-size.sh -t`:
 #      Print Total for all packages installed on system: ./dpkg-list-by-size.sh -t
 
+# Credits to https://askubuntu.com/users/1039024/fritjof-larsson for original script
+
 unit="M"
 if [ "$1" == '-t' ]
 then
